@@ -2,9 +2,9 @@ import argparse
 import numpy as np
 
 parser = argparse.ArgumentParser(
-    prog="Day1 Part 2",
+    prog="Day2 Part 1",
     description="Find out if the elf is fooling you or not",
-    epilog="AOC 2022 Day 1",
+    epilog="AOC 2022 Day 2",
 )
 
 parser.add_argument("-f", "--filename")
