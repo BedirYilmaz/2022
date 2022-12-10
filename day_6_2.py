@@ -22,6 +22,7 @@ for i in range(4, len(code)):
         start = i+1
         break
 
+start = start - 4
 for i in range(start+14, len(code)):
     if len(set(code[i-14:i])) == 14:
         print(i)
